@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "keybar",
+  "version": "${version}",
+  "name": "Keybar",
+  "description": "spotlight search for keybindings",
+  "authors": [],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/keybar/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "codes.maxi.keybar.Keybar"
+    ],
+    "main": [
+      "codes.maxi.keybar.common.KeybarCommon"
+    ]
+  },
+  "mixins": [
+    "keybar.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  },
+  "accessWidener": "keybar.accesswidener"
+}

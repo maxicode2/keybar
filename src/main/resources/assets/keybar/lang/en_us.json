@@ -1,0 +1,17 @@
+{
+  "key.category.keybar": "Keybar",
+  "key.keybar.open_keybar": "Open Keybar",
+
+  "keybar.title": "Keybar",
+  "keybar.usage": "Input query, select keybinding with arrow keys, and press Enter",
+  "keybar.query": "Keybinding query: %s",
+  "keybar.one_result": "1 result found",
+  "keybar.no_results": "No results found",
+  "keybar.many_results": "%s results found",
+  "keybar.result": "%s: %s",
+  "keybar.position": "%s of %s results",
+
+  "key.keyboard.control": "Control",
+  "key.keyboard.alt": "Alt",
+  "key.keyboard.shift": "Shift"
+}
